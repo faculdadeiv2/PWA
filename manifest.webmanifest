@@ -1,0 +1,18 @@
+{
+    "short_name": "Sobre a Faculdade iv2",
+    "name": "aboutiv2",
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#ffffff",
+    "theme-color": "#ffffff",
+    "background_color": "#000000",
+    "background-color": "#000000",
+    "description": "my site description",
+    "icons": [
+      {
+        "src": "images/logo.png",
+        "type": "image/png",
+        "sizes": "2560x2560"
+      }
+    ]
+  }
