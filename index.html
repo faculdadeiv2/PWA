@@ -1,113 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="getmdl/material.min.css">
-    <script src="getmdl/material.min.js"></script>
-    <link rel="manifest" href="manifest.webmanifest">
-    <title>Sobre</title>
-    <style>
-        body {
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-        }
-    </style>
+    <title>Teste</title>
+
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
 </head>
-
 <body>
-    <div class="mdl-layout mdl-js-layout" style="height: 100%;">
-        <header class="mdl-layout__header mdl-layout__header--scroll">
-            <div class="mdl-layout__header-row">
-                <!-- Title -->
-                <a href="index.html">
-                    <img width="200" src="images/iv2.png" width="500">
-                </a>
-                <!-- Add spacer, to align navigation to the right -->
-                <div class="mdl-layout-spacer" style="margin-left: 100px;">
-                    <form action="#">
-                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label"
-                            style="display: flex; width: 500px;">
-                            <input class="mdl-textfield__input" type="text" id="sample3">
-                            <label class="mdl-textfield__label" for="sample3">Text...</label>
-                            <a href="pesquisa.html"><span class="material-icons" style="cursor: pointer; color: black;">
-                                    search
-                                </span></a>
-                        </div>
-                    </form>
-                </div>
-                <!-- Navigation -->
-                <nav class="mdl-navigation">
-                    <a class="mdl-navigation__link" href="https://mail.google.com/mail/u/0/" target="_blank">E-mail</a>
-                    <a class="mdl-navigation__link"
-                        href="https://www.google.com/search?q=faculdade+iv2&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjO-ufbzP3sAhW6GLkGHS1sCf4Q_AUoA3oECAUQBQ&biw=1366&bih=635"
-                        target="_blank">Imagens</a>
-                    <a class="mdl-navigation__link" href=""><span class="material-icons">
-                            view_headline
-                        </span></a>
-                    <a class="mdl-navigation__link" href="https://www.instagram.com/faculdadeiv2/" target="_blank"><span
-                            class="material-icons">
-                            mood
-                        </span></a>
-                </nav>
-            </div>
-        </header>
+    <H1>Seja bem vindo</H1>
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Active</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Separated link</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
 
-        <!-- main -->
-
-        <div class="demo-card-wide mdl-card mdl-shadow--2dp" style="align-items: center; margin: auto;">
-            <div class="mdl-card__title">
-                <img width="200" src="images/iv2redondo.png" alt="">
-            </div>
-            <div class="mdl-card__supporting-text"
-                style="color: black; text-align: justify; background-color: rgba(0,0,0,0.1);">
-                A Faculdade iv2 conta com profissionais com anos de experiência no mercado de tecnologia para
-                desenvolver a grade perfeita de habilidades para você, então fique ligado com a gente para trilhar seu
-                caminho como um programador.
-            </div>
-            <div class="mdl-card__actions mdl-card--border">
-                <a href="https://class.faculdadeiv2.com.br/#/auth/login" target="_blank"
-                    class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" style="color: black;">
-                    Descubra a Faculdade iv2
-                </a>
-            </div>
-            <div class="mdl-card__menu">
-                <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-                    <i class="material-icons">share</i>
-                </button>
-            </div>
-        </div>
-
-        <!-- footer -->
-
-        <footer class="mdl-mini-footer" style="z-index: 1000;">
-            <div style="display: inline;">
-                <div class="mdl-mini-footer__link-section">
-                    <a href="brasil.html" style="text-decoration: none; color: white; ">
-                        Brasil
-                    </a>
-                </div>
-                <div class="mdl-mini-footer__left-section">
-                    <ul class="mdl-mini-footer__link-list">
-                        <li><a href="#">Publicidade</a></li>
-                        <li><a href="#">Negócios</a></li>
-                        <li><a href="sobre.html">Sobre</a></li>
-                        <li><a href="#">Como não Funciona</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="mdl-mini-footer__right-section" style="transform: translateY(20px);">
-                <ul class="mdl-mini-footer__link-list" style="margin-right: 15px;">
-                    <li><a href="#">Privacidade</a></li>
-                    <li><a href="#">Termos</a></li>
-                    <li><a style="cursor: pointer;">Configurações</a></li>
-                </ul>
-            </div>
-        </footer>
-    </div>
-    <!-- <script src="index.js"></script> -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>

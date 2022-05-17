@@ -1,0 +1,24 @@
+{
+  "name": "app-perc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faculdadeiv2/PWA.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faculdadeiv2/PWA/issues"
+  },
+  "homepage": "https://github.com/faculdadeiv2/PWA#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.0-beta1",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1"
+  }
+}
