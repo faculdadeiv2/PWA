@@ -1,11 +1,6 @@
 body {
     margin: 0 0 55px 0;
 }
-
-p{
-    font-size: 12px;
-}
-
 .navtop {
     width: 100%;
     display: flex;
