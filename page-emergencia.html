@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.webmanifest">
+    <title>Sammakko</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+    <link rel="stylesheet" href="Assets/styles/nav.css">
+    <link rel="stylesheet" href="Assets/styles/style.css">
+</head>
+<body>
+    <!-- Botoes-Top -->
+  <div class="container px-3">
+    <div class="navtop my-3">
+        <a href="page-home.html" class="nav__link__top" id="bt-voltar">
+          <img src="Assets/images/bt-voltar.svg"></img>
+        </a>
+        <a href="#" class="nav__link__top" id="bt-mais">
+          <img src="Assets/images/bt-mais.svg"></img>
+        </a>
+    </div>
+    <div class="accordion" id="accordionExample">
+        <!-- <div class="accordion-item"> -->
+            <!-- Tira a borda -->
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Telefones de Emergência
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div id="emergency-bg-color" class="row">
+                  <div class="row mt-2">
+                    <div class="col-3">
+                        <p><b>0000</b></p>
+                    </div>
+                    <div class="col-9">
+                        <p>Telefone</p>
+                    </div>
+                  </div>
+                  <div class="row mt-2">
+                    <div class="col-3">
+                        <p><b>0000</b></p>
+                    </div>
+                    <div class="col-9">
+                        <p>Telefone</p>
+                    </div>
+                  </div>
+                  <div class="row mt-2">
+                    <div class="col-3">
+                        <p><b>0000</b></p>
+                    </div>
+                    <div class="col-9">
+                        <p>Telefone</p>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <h2 class="mt-5 mb-4">Lorem Ipsum</h2>
+        <div class="row mb-4">
+        <div class="response col-6">
+            <img src="Assets/images/block-conteudos.png" alt="">
+        </div>
+        <div class="response col-6">
+            <img src="Assets/images/block-conteudos.png" alt="">
+        </div>
+        </div><div class="row mb-4">
+            <div class="response col-6">
+                <img src="Assets/images/block-conteudos.png" alt="">
+            </div>
+            <div class="response col-6">
+                <img src="Assets/images/block-conteudos.png" alt="">
+            </div>
+            </div>
+        <div class="row mb-4">
+                <div class="response col-6">
+                    <img src="Assets/images/block-conteudos.png" alt="">
+                </div>
+                <div class="response col-6">
+                    <img src="Assets/images/block-conteudos.png" alt="">
+                </div>
+                </div>    
+  </div>
+    
+    <!-- NavBar -->
+    <nav class="nav">
+      <a href="#" class="nav__link">
+          <img src="Assets/images/home.svg" class="nav__icon"></img>
+          <span class="nav__text">Início</span>
+      </a>
+      <a href="#" class="nav__link nav__link--active">
+          <img src="Assets/images/search.svg" class="nav__icon"></img>
+          <span class="nav__text">Busca</span>
+      </a>
+      <a href="#" class="nav__link">
+          <img src="Assets/images/emergency.svg" class="nav__icon"></img>
+          <span class="nav__text">Emergência</span>
+      </a>
+      <a href="#" class="nav__link">
+          <img src="Assets/images/test.svg" class="nav__icon"></img>
+          <span class="nav__text">Teste</span>
+      </a>
+    </nav>
+    <!-- Scripts Only -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
