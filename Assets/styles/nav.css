@@ -58,11 +58,12 @@ body {
     background-color: #eeeeee;
 }
 
-.nav__link--active {
-    color: #009578;
-}
 
 img.nav__icon {
     width: 24px;
     height: 24px;
+}
+
+#teste {
+    color: aqua;
 }

@@ -88,9 +88,48 @@
   </div>
     
     <!-- NavBar -->
+
+    <!-- <script>
+      function changeIcon(objeto, caminhoImagemAntiga, caminhoNovaImagem){
+  let element = document.getElementById(objeto);
+  if(element.src === caminhoImagemAntiga){
+    element.src = caminhoNovaImagem;
+  }else if(element.src === caminhoNovaImagem){
+    element.src = caminhoImagemAntiga;
+  }
+}
+    </script> -->
+
+    <!-- <script>
+      $(document).ready(function(){
+
+    $("#teste").click(function(){
+      if($(this).attr("src") == "Assets/images/home.svg") 
+        $(this).attr("src","Assets/images/Ellipse 8.png");
+      else
+        $(this).attr("src","Assets/images/home.svg");
+
+    });
+    });
+    </script> -->
+    
+    <script>
+      let element = document.getElementById('homeIcon');
+      let img1 = 'Assets/images/home.svg';
+      let img2 = 'Assets/images/home-active.svg';
+      element.addEventListener('click', function() {
+        if(element.src === img1){
+          element.src = img2;
+        }
+        else{
+          element.src = img1;
+        }
+      })
+    </script>
+
     <nav class="nav">
-      <a href="page-home.html" class="nav__link">
-          <img src="Assets/images/home.svg" class="nav__icon"></img>
+      <a href="#" class="nav__link">
+          <img src="Assets/images/home.svg" class="nav__icon" id="homeIcon"></img>
           <span class="nav__text">Início</span>
       </a>
       <a href="page-pesquisa.html" class="nav__link nav__link--active">
@@ -108,6 +147,7 @@
     </nav>
     <!-- Scripts Only -->
     <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="teste.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
