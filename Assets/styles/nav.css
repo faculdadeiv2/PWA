@@ -7,6 +7,10 @@ body {
     overflow-x: auto;
 }
 
+.bg-color{
+    background-color: #0D6EFD;
+}
+
 .nav__link__top {
     display: flex;
     align-items: center;

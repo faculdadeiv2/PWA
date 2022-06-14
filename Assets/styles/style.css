@@ -23,3 +23,14 @@ p{
       width: 98%;
     }
   }
+
+  .accordion-button:not(.collapsed)::after {
+    
+    background-image: url("Assets/images/plus.svg"); 
+    
+  }
+  .accordion-button::after {
+    
+    background-image: url("Assets/images/plus.svg"); 
+    
+  }
