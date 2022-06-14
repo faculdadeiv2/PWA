@@ -18,13 +18,37 @@ p{
     background-color: #F2F2F2;
 }
 
+.txt-color{
+  color: #0D6EFD;
+}
+
+.carousel-indicators{
+  position: relative;
+  margin-top: 3%;
+}
+
+#carouselExampleIndicators li{
+ background-color: #D9D9D9; 
+}
+
+.carousel-shadow{
+  
+}
+
+.carousel-text-shadow{
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+
 @media (max-width: 376px) {
     .response img {
       width: 98%;
     }
   }
 
-  .accordion-button:not(.collapsed)::after {
+
+  /* .accordion-button:not(.collapsed)::after {
     
     background-image: url("Assets/images/plus.svg"); 
     
@@ -33,4 +57,4 @@ p{
     
     background-image: url("Assets/images/plus.svg"); 
     
-  }
+  } */
