@@ -1,10 +1,10 @@
 <h1 align="center">SAMMAKKO</h1>
 
-## About
-### We are students of Sistemas e Mídias Digitais from Federal University of Ceara with partnership <br/>
-### of the group PERC, create a app to help people study about cardiorespiratory problems and save lives.<br/>
+## Sobre
+### Somos estudantes do curso de Sistemas e Mídias Digitais da Universidade Federal do Ceará em parceria <br/>
+### do projeto PERC, criamos um aplicativo para ajudar pessoas a estudar sobre problemas cardiorrespiratórios e salvar vidas.<br/>
 ### [Universidade Federal do Ceará](https://www.ufc.br/)
-### Meet our team members:
+### Conheça nossos membros:
 <table>
   <tr>
      <td align="center">
@@ -49,7 +49,7 @@
 [Figma](https://www.figma.com/file/eb65Qsro2VS68Vbgxm3c0r/Projeto-Integrado-I%2F-Trabalho-SMD-E-MEDICINA?node-id=0%3A1)<br>
 [Trello](https://trello.com/b/rC838nsZ/samakko-team)<br>
 
-## Features map
+## Mapa de Funcionalidades
 <!-- <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
@@ -102,8 +102,33 @@
   </tbody>
 </table>
 
+## Como executar
 
-## Technologies
+Clone o projeto e acesse a pasta.
+
+```bash
+
+$ git clone https://github.com/MarcioJnr/Perc-App-PWA
+$ cd Perc-App-PWA
+
+```
+
+Para iniciá-lo, siga os passos abaixo:
+
+```bash
+
+# Instalar as dependências com npm
+$ npm install
+
+# Iniciar o projeto com npm
+$ npm start
+
+```
+
+
+
+
+## Tecnologias
 <p align="left">
   <a href="https://nodejs.org" target="_blank" rel="noreferrer" style="margin-right: 15px;">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40" />
