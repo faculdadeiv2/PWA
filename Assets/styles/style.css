@@ -3,11 +3,11 @@ h1{
 }
 
 h2{
-    font-size: 33px;
+    font-size: 18px;
 }
 
-h2{
-    font-size: 26px;
+h3{
+    font-size: 14px;
 }
 
 p{
@@ -18,8 +18,12 @@ p{
     background-color: #F2F2F2;
 }
 
-.txt-color{
+.txt-color1{
   color: #0D6EFD;
+}
+
+.txt-color2{
+  color: #F03148;
 }
 
 .carousel-indicators{
@@ -31,9 +35,23 @@ p{
  background-color: #D9D9D9; 
 }
 
-.carousel-shadow{
-  
+.text-top-color{
+  color: white;
 }
+
+.name-sections{
+  text-decoration: none;
+  color: black;
+}
+
+.sections{
+  display: flex;
+}
+
+.sections img{
+  display: inline-block;
+}
+
 
 .carousel-text-shadow{
   border-bottom-left-radius: 15px;

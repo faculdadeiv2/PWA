@@ -9,35 +9,35 @@
   <tr>
      <td align="center">
       <a target="_blank" href="#">
-        <img src="Assets/images/smile.png" alt="teste"
+        <img src="Assets/images/ivina.jpeg" alt="Ívina Lara"
           style="object-fit: cover; width="75px" height="75px" /><br/>
         <sub><b>Ívina Lara [507804]</b></sub>
       </a><br/>
      </td>
      <td align="center">
       <a target="_blank" href="#">
-        <img src="Assets/images/smile.png" alt="teste"
+        <img src="Assets/images/gabriel.jpeg" alt="Gabriel Santana"
           style="object-fit: cover; width="75px" height="75px" /><br/>
         <sub><b>Gabriel Santana [507800]</b></sub>
       </a><br/>
      </td>
      <td align="center">
       <a target="_blank" href="#">
-        <img src="Assets/images/smile.png" alt="teste"
+        <img src="Assets/images/thiago.jpeg" alt="Thiago Pires"
           style="object-fit: cover; width="75px" height="75px" /><br/>
         <sub><b>Thiago Pires [494756]</b></sub>
       </a><br/>
      </td>
      <td align="center">
       <a target="_blank" href="#">
-        <img src="Assets/images/smile.png" alt="teste"
+        <img src="Assets/images/marcio.jpeg" alt="Francisco Márcio"
           style="object-fit: cover; width="75px" height="75px" /><br/>
         <sub><b>Francisco Márcio [511770]</b></sub>
       </a><br/>
      </td>
     <td align="center">
       <a target="_blank" href="#">
-        <img src="Assets/images/smile.png" alt="teste"
+        <img src="Assets/images/levi.jpeg" alt="Levi Ferreira"
           style="object-fit: cover; width="75px" height="75px" /><br/>
         <sub><b>Levi Ferreira [509671]</b></sub>
       </a><br/>
@@ -107,5 +107,8 @@
 <p align="left">
   <a href="https://nodejs.org" target="_blank" rel="noreferrer" style="margin-right: 15px;">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40" />
+  </a>
+  <a href="https://getbootstrap.com" target="_blank" rel="noreferrer" style="margin-right: 15px;">
+    <img src="/docs/5.2/assets/brand/bootstrap-logo-shadow.png" alt="bootstrap" width="40" height="40" />
   </a>
 </p>
