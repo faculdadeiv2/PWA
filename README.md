@@ -74,29 +74,34 @@
     </tr>
   </thead>
   <tbody>
+     <tr>
+      <td class="tg-0lax"><span style="font-weight:bold">RF0001 -</span> Ir para Pesquisa</td>
+      <td class="tg-0lax" style="text-align: center;">O usuário pode acessar uma tela exclusiva para pesquisar, através de um botão</td>
+      <td class="tg-c3ow" style="text-align: center;"><a target="_blank" href="https://github.com/MarcioJnr/Perc-App-PWA/blob/main/page-pesquisa.html" target="_blank" rel="noopener noreferrer">código</a></td>
+    </tr>                                                                       
     <tr>
-      <td class="tg-0lax"><span style="font-weight:bold">RF0007 -</span> Seção de emergência</td>
-      <td class="tg-0lax" style="text-align: center;">O usuário pode acessar uma tela com diversas formas de auxílio no caso de uma emergência</td>
-      <td class="tg-c3ow" style="text-align: center;"><a target="_blank" href="https://github.com/MarcioJnr/Perc-App-PWA/blob/main/page-emergencia.html" target="_blank" rel="noopener noreferrer">código</a></td>
-    </tr>
-    <tr>
-      <td class="tg-0lax"><span style="font-weight:bold">RF0008 -</span> Visualizar números de emergência</td>
-      <td class="tg-0lax" style="text-align: center;">O usuário pode visualizar números de socorro em caso de uma emêrgencia</td>
-      <td class="tg-c3ow" style="text-align: center;"><a target="_blank" href="https://github.com/MarcioJnr/Perc-App-PWA/blob/main/page-emergencia.html" target="_blank" rel="noopener noreferrer">código</a></td>
+      <td class="tg-0lax"><span style="font-weight:bold">RF0013 -</span> Barra de navegação</td>
+      <td class="tg-0lax" style="text-align: center;">O usuário navegar entre as telas com através da barra de navegação inferior</td>
+      <td class="tg-c3ow" style="text-align: center;"><a target="_blank" href="https://github.com/MarcioJnr/Perc-App-PWA/blob/main/page-home.html" target="_blank" rel="noopener noreferrer">código</a></td>
     </tr>
      <tr>
-      <td class="tg-0lax"><span style="font-weight:bold">RF009 -</span> Acessar passos simples de primeiros socorros ilustrados</td>
-      <td class="tg-0lax" style="text-align: center;">O usuário pode ver imagens ilustrativas para auxiliar no atendimento imediato em uma emergência</td>
-      <td class="tg-c3ow" style="text-align: center;"><a target="_blank" href="https://github.com/MarcioJnr/Perc-App-PWA/blob/main/page-emergencia.html" target="_blank" rel="noopener noreferrer">código</a></td>
-    </tr>
-     <tr>
-      <td class="tg-0pky"><span style="font-weight:bold">RF0012 -</span> Ir para Home</td>
-      <td class="tg-c3ow" style="text-align: center;">O usuário podeir para página home a partir de qualquer tela</td>
+      <td class="tg-0pky"><span style="font-weight:bold">RF0014 -</span> Ir para Home</td>
+      <td class="tg-c3ow" style="text-align: center;">O usuário pode ir para página home a partir de qualquer tela</td>
       <td class="tg-c3ow" style="text-align: center;"><a target="_blank" href="https://github.com/MarcioJnr/Perc-App-PWA/blob/main/page-home.html" target="_blank" rel="noopener noreferrer">código</a></td>
     </tr>
     <tr>
-      <td class="tg-0pky"><span style="font-weight:bold">RF0015 - </span>FAQ</td>
+      <td class="tg-0pky"><span style="font-weight:bold">RF0015 -</span> Carrossel de conteúdos principais/em destaque</td>
+      <td class="tg-c3ow" style="text-align: center;">O usuário visualiza logo na tela inicial os conteúdos principais através de um carrossel</td>
+      <td class="tg-c3ow" style="text-align: center;"><a target="_blank" href="https://github.com/MarcioJnr/Perc-App-PWA/blob/main/page-home.html" target="_blank" rel="noopener noreferrer">código</a></td>
+    </tr>
+    <tr>
+      <td class="tg-0pky"><span style="font-weight:bold">RF0018 - </span>FAQ</td>
       <td class="tg-0pky" style="text-align: center;">O usuário pode acessar uma página com perguntas frequentes</td>
+      <td class="tg-c3ow" style="text-align: center;"><a target="_blank" href="https://github.com/MarcioJnr/Perc-App-PWA/blob/main/page-faq.html" target="_blank" rel="noopener noreferrer">código</a></td>
+    </tr>
+    <tr>
+      <td class="tg-0pky"><span style="font-weight:bold">RF0019 - </span>Efeito acordeão na seção de FAQ</td>
+      <td class="tg-0pky" style="text-align: center;">O usuário visualiza as perguntas e respostas através de uma interatividade de fechar e abrir a aba do texto</td>
       <td class="tg-c3ow" style="text-align: center;"><a target="_blank" href="https://github.com/MarcioJnr/Perc-App-PWA/blob/main/page-faq.html" target="_blank" rel="noopener noreferrer">código</a></td>
     </tr>
   </tbody>
