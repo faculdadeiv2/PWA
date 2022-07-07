@@ -90,25 +90,37 @@
             </div>
             </div>   
 </div>
+
+<!-- <script>
+  function activeHome(){
+    $('#home-icon').hide();
+    $('#home-icon-active').show();
+    $('#home-icon-active span').css('color', '#0D6EFD');
+  }
+  function desactiveHome(){
+    $('#home-icon').show();
+    $('#home-icon-active').hide();
+  }
+</script> -->
      
     
     <!-- NavBar -->
     <nav class="nav">
-      <a href="page-home.html" class="nav__link">
+      <a href="page-home.html" id="home-icon" class="nav__link">
           <img src="Assets/images/home.svg" class="nav__icon"></img>
-          <span class="nav__text">Início</span>
+          <span">Início</span>
       </a>
       <a href="page-pesquisa.html" class="nav__link">
           <img src="Assets/images/search.svg" class="nav__icon"></img>
-          <span class="nav__text">Busca</span>
+          <span">Busca</span>
       </a>
-      <a href="page-emergencia.html" class="nav__link">
-          <img src="Assets/images/emergency.svg" class="nav__icon"></img>
-          <span class="nav__text">Emergência</span>
+      <a href="page-emergencia.html" class="nav__link nav__link--active">
+          <img src="Assets/images/emergency-On.svg" class="nav__icon"></img>
+          <span">Emergência</span>
       </a>
       <a href="page-testes.html" class="nav__link">
           <img src="Assets/images/test.svg" class="nav__icon"></img>
-          <span class="nav__text">Teste</span>
+          <span">Teste</span>
       </a>
     </nav>
     <!-- Scripts Only -->

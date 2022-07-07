@@ -16,10 +16,56 @@
     <div class="bg-color">
       <div class="container px-3">
         <div class="navtop">
-            <h2 class="nav__link__top my-3 text-top-color">App Name</h2>
-            <a href="tela-aleatoria.html" class="nav__link__top my-3" id="bt-mais">
+            <h2 class="nav__link__top my-3 text-top-color">Primeiros Socorros PERC</h2>
+            <a class="nav__link__top my-3" id="bt-mais" data-bs-toggle="modal" href="#myModal1">
               <img src="Assets/images/bt-mais-branco.svg"></img>
             </a>
+    <!-- Modal -->
+            <div class="modalOne">
+              <div class="modal fade" id="myModal1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <div class="row">
+                          <a href="page-faq.html" class="modal-items name-sections">
+                            <img src="Assets/images/icon-faq.svg" alt="">
+                            <h3 class="mt-1">FAQ</h3>
+                          </a>
+                          <a href="#" class="modal-items name-sections">
+                            <img src="Assets/images/icon-settings.svg" alt="">
+                            <h3 class="mt-1">Configurações</h3>
+                          </a> 
+                          <a href="#" class="modal-items name-sections">
+                            <img src="Assets/images/icon-about.svg" alt="">
+                            <h3 class="mt-1">Sobre</h3>
+                          </a>
+                          <a class="modal-items name-sections" data-bs-toggle="modal" href="#myModal2">
+                            <img src="Assets/images/icon-logout.svg" alt="">
+                            <h3 class="mt-1">Sair</h3>
+                          </a>   
+                      </div>          
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modalTwo">
+              <div class="modal" id="myModal2" data-bs-backdrop="static" data-bs-keyboard="false" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-body mx-2">
+                      <h2 class="mt-2 mb-3">Sair do aplicativo</h2>
+                      <p>Essa ação levará você para a saída
+                        do aplicativo de Primeiros Socorros. Deseja realmente sair?</p>
+                      <div class="items-modalTwo">
+                        <a data-bs-dismiss="modal"><p class="txt-color1">Cancelar</p></a>
+                        <a onclick="window.close();"><p class="txt-color1">Sair</p></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
         </div>
       </div>
     </div>  
@@ -72,45 +118,52 @@
           <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
         </ol>
       </div>
-      <div>
-          <h5 style="display: inline-block;">Entenda</h5>
-          <a href="page-faq.html" style="float:right;"><p>Ver tudo</p></a>
+      <div class="mb-4">
+          <h5 style="display: inline-block;">Assuntos</h5>
       </div>
-      <a href="page-faq.html"  class="name-sections">
-      <div class="sections mt-4">
-          <img class="ms-3" src="Assets/images/bolinha.svg" alt="">
-          <h3  class="ms-3 mt-2">Bls Lactente</h3>
-      </div> 
-      <hr> 
-      </a>
-      <a href="page-faq.html"  class="name-sections">
-        <div class="sections mt-3">
-            <img class="ms-3" src="Assets/images/bolinha.svg" alt="">
-            <h3  class="ms-3 mt-2">Bls Criança</h3>
-        </div> 
-        <hr> 
-      </a>
-      <a href="page-faq.html"  class="name-sections">
-        <div class="sections mt-3">
-            <img class="ms-3" src="Assets/images/bolinha.svg" alt="">
-            <h3  class="ms-3 mt-2">OVACE Crianças maiores que um ano</h3>
-        </div> 
-        <hr> 
-      </a>
-      <a href="page-faq.html"  class="name-sections">
-        <div class="sections mt-3">
-            <img class="ms-3" src="Assets/images/bolinha.svg" alt="">
-            <h3  class="ms-3 mt-2">OVACE Lactente</h3>
-        </div> 
-        <hr> 
-      </a>
+      <div class="row col-conteudos text-center mb-3">
+        <div class="col-6 conteudos ">
+          <a href="page-faq.html" class="name-sections">
+            <div class=" mt-3">
+                <img class="text-center" src="Assets/images/bolinha.svg" alt="">
+                <h3  class="text-center mt-3">Engasgo Lactente</h3>
+            </div> 
+          </a>
+        </div>
+        <div class="col-6 conteudos  ">
+          <a href="page-faq.html" class="name-sections">
+            <div class=" mt-3">
+                <img class="text-center" src="Assets/images/bolinha.svg" alt="">
+                <h3  class="text-center mt-3">Engasgo Criança</h3>
+            </div> 
+          </a>
+        </div>
+      </div>
+      <div class="row col-conteudos text-center">
+        <div class="col-6 conteudos">
+          <a href="page-faq.html" class="name-sections">
+            <div class=" mt-3">
+                <img class="text-center" src="Assets/images/bolinha.svg" alt="">
+                <h3  class="text-center mt-3">Engasgo Criança</h3>
+            </div> 
+          </a>
+        </div>
+        <div class="col-6 conteudos">
+          <a href="page-faq.html" class="name-sections">
+            <div class=" mt-3">
+                <img class="text-center" src="Assets/images/bolinha.svg" alt="">
+                <h3  class="text-center mt-3">Engasgo Lactente</h3>
+            </div> 
+          </a>
+        </div>
+      </div>
     </div> 
 
     
     <!-- NavBar -->
     <nav class="nav">
-      <a href="page-home.html" class="nav__link">
-          <img src="Assets/images/home.svg" class="nav__icon"></img>
+      <a href="page-home.html" class="nav__link nav__link--active">
+          <img src="Assets/images/home-On.svg" class="nav__icon"></img>
           <span class="nav__text">Início</span>
       </a>
       <a href="page-pesquisa.html" class="nav__link">

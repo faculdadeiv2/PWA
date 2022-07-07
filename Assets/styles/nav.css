@@ -64,10 +64,10 @@ body {
 }
 
 .nav__link--active {
-    color: #009578;
+    color: #0D6EFD;
 }
 
-img.nav__icon {
+/* img.nav__icon {
     width: 24px;
     height: 24px;
-}
+} */
