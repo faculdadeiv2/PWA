@@ -1,0 +1,17 @@
+.container:after,
+.row:after,
+.clearfix {
+  content: "";
+  display: table;
+  clear: both; }
+
+  #question-2, #question-3, #question-4, #question-5, #question-6{
+    display: none;
+  }
+  
+  #progress_bar {
+    background-color: #018fd0;
+    width: 20%;
+    height: 10px;
+    transition: all 100ms ease-in-out;
+  }

@@ -1,113 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="getmdl/material.min.css">
-    <script src="getmdl/material.min.js"></script>
     <link rel="manifest" href="manifest.webmanifest">
-    <title>Sobre</title>
-    <style>
-        body {
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-        }
-    </style>
+    <title>Sammakko</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="Assets/bootstrapfiles/bootstrap/compiler/bootstrap.css">
+    <link rel="stylesheet" href="Assets/styles/nav.css">
+    <link rel="stylesheet" href="Assets/styles/style.css">
 </head>
-
 <body>
-    <div class="mdl-layout mdl-js-layout" style="height: 100%;">
-        <header class="mdl-layout__header mdl-layout__header--scroll">
-            <div class="mdl-layout__header-row">
-                <!-- Title -->
-                <a href="index.html">
-                    <img width="200" src="images/iv2.png" width="500">
-                </a>
-                <!-- Add spacer, to align navigation to the right -->
-                <div class="mdl-layout-spacer" style="margin-left: 100px;">
-                    <form action="#">
-                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label"
-                            style="display: flex; width: 500px;">
-                            <input class="mdl-textfield__input" type="text" id="sample3">
-                            <label class="mdl-textfield__label" for="sample3">Text...</label>
-                            <a href="pesquisa.html"><span class="material-icons" style="cursor: pointer; color: black;">
-                                    search
-                                </span></a>
-                        </div>
-                    </form>
-                </div>
-                <!-- Navigation -->
-                <nav class="mdl-navigation">
-                    <a class="mdl-navigation__link" href="https://mail.google.com/mail/u/0/" target="_blank">E-mail</a>
-                    <a class="mdl-navigation__link"
-                        href="https://www.google.com/search?q=faculdade+iv2&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjO-ufbzP3sAhW6GLkGHS1sCf4Q_AUoA3oECAUQBQ&biw=1366&bih=635"
-                        target="_blank">Imagens</a>
-                    <a class="mdl-navigation__link" href=""><span class="material-icons">
-                            view_headline
-                        </span></a>
-                    <a class="mdl-navigation__link" href="https://www.instagram.com/faculdadeiv2/" target="_blank"><span
-                            class="material-icons">
-                            mood
-                        </span></a>
-                </nav>
-            </div>
-        </header>
-
-        <!-- main -->
-
-        <div class="demo-card-wide mdl-card mdl-shadow--2dp" style="align-items: center; margin: auto;">
-            <div class="mdl-card__title">
-                <img width="200" src="images/iv2redondo.png" alt="">
-            </div>
-            <div class="mdl-card__supporting-text"
-                style="color: black; text-align: justify; background-color: rgba(0,0,0,0.1);">
-                A Faculdade iv2 conta com profissionais com anos de experiência no mercado de tecnologia para
-                desenvolver a grade perfeita de habilidades para você, então fique ligado com a gente para trilhar seu
-                caminho como um programador.
-            </div>
-            <div class="mdl-card__actions mdl-card--border">
-                <a href="https://class.faculdadeiv2.com.br/#/auth/login" target="_blank"
-                    class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" style="color: black;">
-                    Descubra a Faculdade iv2
-                </a>
-            </div>
-            <div class="mdl-card__menu">
-                <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-                    <i class="material-icons">share</i>
-                </button>
-            </div>
-        </div>
-
-        <!-- footer -->
-
-        <footer class="mdl-mini-footer" style="z-index: 1000;">
-            <div style="display: inline;">
-                <div class="mdl-mini-footer__link-section">
-                    <a href="brasil.html" style="text-decoration: none; color: white; ">
-                        Brasil
-                    </a>
-                </div>
-                <div class="mdl-mini-footer__left-section">
-                    <ul class="mdl-mini-footer__link-list">
-                        <li><a href="#">Publicidade</a></li>
-                        <li><a href="#">Negócios</a></li>
-                        <li><a href="sobre.html">Sobre</a></li>
-                        <li><a href="#">Como não Funciona</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="mdl-mini-footer__right-section" style="transform: translateY(20px);">
-                <ul class="mdl-mini-footer__link-list" style="margin-right: 15px;">
-                    <li><a href="#">Privacidade</a></li>
-                    <li><a href="#">Termos</a></li>
-                    <li><a style="cursor: pointer;">Configurações</a></li>
-                </ul>
-            </div>
-        </footer>
+   <!-- Navbar Top -->
+   <div class="nav-top px-3 bg-color">
+    <div class="nav-top-names mt-2">
+      <h2 class="text-top-color">Primeiros Socorros PERC</h2>
     </div>
-    <!-- <script src="index.js"></script> -->
-</body>
+    <a id="bt-mais" data-bs-toggle="modal" href="#myModal1">
+      <img src="Assets/images/bt-mais-branco.svg"></img>
+    </a>
+</div>
+  <div class="container px-3 mt-3">
+      <!-- Modal -->
+      <div class="modalOne">
+        <div class="modal fade" id="myModal1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-body">
+                <div class="row">
+                    <a href="page-faq.html" class="modal-items name-sections">
+                      <img src="Assets/images/icon-faq.svg" alt="">
+                      <h3 class="mt-2">FAQ</h3>
+                    </a>
+                    <a href="#" class="modal-items name-sections">
+                      <img src="Assets/images/icon-settings.svg" alt="">
+                      <h3 class="mt-2">Configurações</h3>
+                    </a> 
+                    <a href="#" class="modal-items name-sections">
+                      <img src="Assets/images/icon-about.svg" alt="">
+                      <h3 class="mt-2">Sobre</h3>
+                    </a>
+                    <a class="modal-items name-sections" data-bs-toggle="modal" href="#myModal2">
+                      <img src="Assets/images/icon-logout.svg" alt="">
+                      <h3 class="mt-2">Sair</h3>
+                    </a>   
+                </div>          
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modalTwo">
+        <div class="modal" id="myModal2" data-bs-backdrop="static" data-bs-keyboard="false" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-body mx-2">
+                <h1 class="mt-2 mb-3"><b>Sair do aplicativo</b></h1>
+                <h6>Essa ação levará você h6ara a saída
+                  do aplicativo de Primeiros Socorros. Deseja realmente sair?</h6>
+                <div class="items-modalTwo mt-4">
+                  <a data-bs-dismiss="modal"><h6 class="txt-color1">Cancelar</h6></a>
+                  <a onclick="closeApp();"><h6 class="txt-color1">Sair</h6></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  <!-- Navbar Top -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="Assets/images/carousel-1.png" alt="First slide">
+            <div class=" carousel-text-shadow">
+              <h4 class="txt-color1 ms-2 me-3 pt-3">Saiba o que é OVACE e suas diferenças</h4>
+                <p class="ms-2 me-3">Saiba como diferenciar entre parcial ou completa e os passos corretos para a manobr....</p>
+                <h7 class="txt-color1 ms-2 me-3 h7b-2">Ir para leitura/conteúdo.</h7>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a data-bs-toggle="modal" href="#myModal3">
+              <img class="d-block w-100" src="Assets/images/carousel-2.png" alt="Second slide">
+            </a>
+            <div class=" carousel-text-shadow">
+              <h4 class="txt-color2 ms-2 me-3 pt-3">Realizar questionário</h4 class="mt-3">
+                <p class="ms-2 me-3">Teste seus conhecimentos com a realização de questionários sobre diversas técnicas.</p>
+                <h7 class="txt-color2 ms-2 me-3 pb-2">Ir para leitura/conteúdo.</h7>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="Assets/images/carousel-3.png" alt="Third slide">
+            <div class=" carousel-text-shadow">
+              <h4 class="txt-color1 ms-2 me-3 pt-3">Conheça o PERC</h4 class="mt-3">
+                <p class="ms-2 me-3">Aprenda sobre como lidar com as técnicas de medicina sobre engasgo blah blah a</p>
+                <h7 class="txt-color1 ms-2 me-3 pb-2">Ir para leitura/conteúdo.</h7>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="Assets/images/carousel-1.png" alt="fourth slide">
+            <div class=" carousel-text-shadow">
+              <h4 class="txt-color1 ms-2 me-3 pt-3">Saiba o que é OVACE e suas diferenças</h4 class="mt-3">
+                <p class="ms-2 me-3">Saiba como diferenciar entre parcial ou completa e os passos corretos para a manobr....</p>
+                <h7 class="txt-color1 ms-2 me-3 pb-2">Ir para leitura/conteúdo.</h7>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+          <span aria-hidden="true"></span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+          <span aria-hidden="true"></span>
+        </a>
+        <ol class="carousel-indicators">
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
+        </ol>
+      </div>
+        <div class="modalThree text-center">
+          <div class="modal" id="myModal3" data-bs-backdrop="static" data-bs-keyboard="false" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-body mx-2">
+                  <img src="Assets/images/modal-Teste.svg" alt="">
+                  <h2 class="mt-2 mb-3">Concluir Testes</h2>
+                  <p>Responda aos questionários e veja seu grau de conhecimento sobre as técnicas cardiorrespiratórias.</p>
+                  <div class="items-modalThree">
+                  <button id="bottom-teste"><h4>Começar</h4></button>  
+                  <a data-bs-dismiss="modal"><h4 class="txt-color2 mt-3">Cancelar</h4></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <div class="mb-4">
+          <h3 style="display: inline-block;">Assuntos</h3>
+      </div>
+      <div class="row col-conteudos text-center mb-3">
+        <div class="col-6 conteudos ">
+          <a href="page-faq.html" class="name-sections">
+            <div class=" mt-3">
+                <img class="text-center" src="Assets/images/bolinha.svg" alt="">
+                <h5  class="text-center mt-3">Engasgo Lactente</h5>
+            </div> 
+          </a>
+        </div>
+        <div class="col-6 conteudos  ">
+          <a href="page-faq.html" class="name-sections">
+            <div class=" mt-3">
+                <img class="text-center" src="Assets/images/bolinha.svg" alt="">
+                <h5  class="text-center mt-3">Engasgo Criança</h5>
+            </div> 
+          </a>
+        </div>
+      </div>
+      <div class="row col-conteudos text-center">
+        <div class="col-6 conteudos">
+          <a href="page-faq.html" class="name-sections">
+            <div class=" mt-3">
+                <img class="text-center" src="Assets/images/bolinha.svg" alt="">
+                <h5  class="text-center mt-3">Engasgo Criança</h5>
+            </div> 
+          </a>
+        </div>
+        <div class="col-6 conteudos">
+          <a href="page-faq.html" class="name-sections">
+            <div class=" mt-3">
+                <img class="text-center" src="Assets/images/bolinha.svg" alt="">
+                <h5  class="text-center mt-3">Engasgo Lactente</h5>
+            </div> 
+          </a>
+        </div>
+      </div>
+    </div> 
 
+    
+    <!-- NavBar -->
+    <nav class="nav">
+      <a href="page-home.html" class="nav__link nav__link--active">
+          <img src="Assets/images/home-On.svg" class="nav__icon"></img>
+          <span class="nav__text">Início</span>
+      </a>
+      <a href="page-pesquisa.html" class="nav__link">
+          <img src="Assets/images/search.svg" class="nav__icon"></img>
+          <span class="nav__text">Busca</span>
+      </a>
+      <a href="page-emergencia.html" class="nav__link">
+          <img src="Assets/images/emergency.svg" class="nav__icon"></img>
+          <span class="nav__text">Emergência</span>
+      </a>
+      <a href="page-testes.html" class="nav__link">
+          <img src="Assets/images/test.svg" class="nav__icon"></img>
+          <span class="nav__text">Teste</span>
+      </a>
+    </nav>
+    <!-- NavBar -->
+    <!-- Scripts Only -->
+    <script src="Assets/bootstrapfiles/jquery/dist/jquery.js"></script>
+    <script src="Assets/bootstrapfiles/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
 </html>

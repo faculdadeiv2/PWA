@@ -1,0 +1,25 @@
+{
+  "name": "app-perc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcioJnr/Perc-App-PWA"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcioJnr/Perc-App-PWA"
+  },
+  "homepage": "https://github.com/MarcioJnr/Perc-App-PWA",
+  "dependencies": {
+    "bootstrap": "^5.2.0-beta1",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1"
+  }
+}

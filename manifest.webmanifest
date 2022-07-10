@@ -1,18 +1,18 @@
 {
-    "short_name": "Sobre a Faculdade iv2",
-    "name": "aboutiv2",
+    "short_name": "SammakkoApp",
+    "name": "Aplicativo Sammakko",
     "start_url": ".",
     "display": "standalone",
     "theme_color": "#ffffff",
     "theme-color": "#ffffff",
     "background_color": "#000000",
     "background-color": "#000000",
-    "description": "my site description",
+    "description": "Aplicativo da equipe Sammakko e PERC",
     "icons": [
       {
-        "src": "images/logo.png",
+        "src": "Assets/images/Yahoo-Messenger-icon.png",
         "type": "image/png",
-        "sizes": "2560x2560"
+        "sizes": "256x256"
       }
     ]
   }
