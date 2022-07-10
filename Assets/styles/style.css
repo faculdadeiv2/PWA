@@ -1,17 +1,82 @@
+@font-face {
+  font-family: 'Inter';
+  src: url("../fonts/static/Inter-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/static/Montserrat-Regular.ttf");
+}
+
 h1{
-    font-size: 24px;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.0015em;
 }
 
 h2{
-    font-size: 18px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.0025em;
 }
 
 h3{
-    font-size: 14px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 133.4%;
+}
+
+h4{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.0015em;
+}
+
+h5{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+letter-spacing: 0.025em;
+}
+
+h6{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 0.0015em;
+}
+
+h7{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.0015em;
 }
 
 p{
-    font-size: 16px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.0015em;
 }
 
 #emergency-bg-color{
@@ -74,29 +139,61 @@ p{
 
 
 .modalOne .modal{
-  top: 1%;
+  top: 3%;
 }
 .modalOne .modal-content{
-  width: 50%;
-  left: 48%;
+  width: 60%;
+  left: 36%;
 }
 
 .modalOne .modal-items{
   display: flex;
-  justify-content: start;
-  align-items: center;
   padding: 8px 16px;
   gap: 16px;
 }
 
 .modalTwo .modal-content{
+  border-radius: 15px;
   margin-top: 50%;
+  margin-left: 4.8%;
+  width: 90%;
 }
 
 .items-modalTwo{
   display: flex;
   justify-content: end;
   gap: 33px;
+}
+
+
+.modalThree .modal-content{
+  border-radius: 15px;
+  padding: 18px 16px;
+  gap: 14px;
+  width: 96%;
+  height: 355px;
+  margin-left: 1.8%;
+  margin-top: 35%;
+}
+
+.modalThree .modal-content button{
+  border: none;
+}
+
+#bottom-teste{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 127px;
+gap: 10px;
+
+width: 100%;
+height: 48px;
+
+background: #F03148;
+color: #FFFFFF;
+border-radius: 10px;
 }
 
 

@@ -15,7 +15,3 @@ async function registerSW(){
 $("#myModal2").on('show.bs.modal', function (e) {
     $("#myModal1").modal("hide");
   });
-
-function bye(){
-    window.close();
-}
